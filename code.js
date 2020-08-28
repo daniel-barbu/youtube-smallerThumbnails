@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         youtube-smallerThumbnails
-// @match        https://www.youtube.com/*
+// @match        https://www.youtube.com/results?search_query=*
 // ==/UserScript==
 
 window.onscroll = function (e) {
