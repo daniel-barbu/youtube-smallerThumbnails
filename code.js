@@ -14,4 +14,4 @@ if (window.location.href.startsWith("https://www.youtube.com/results?search_quer
         for (i=0; i<document.getElementsByTagName("ytd-playlist-thumbnail").length; i++) document.getElementsByTagName("ytd-playlist-thumbnail")[i].style.zoom="0.8";
     } fct();
 }
-window.onscroll=function(){fct()};
+if (window.location.href.startsWith("https://www.youtube.com/results?search_query=")) {window.onscroll=function(){fct()};};
